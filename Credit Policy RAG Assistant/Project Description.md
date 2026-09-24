@@ -6,7 +6,7 @@
 [![Compliance: APRA CPG 223](https://img.shields.io/badge/Compliance-APRA%20CPG%20223%20%7C%20CPS%20234-003366.svg)](https://www.apra.gov.au)
 [![Cost: 100% Free / Open Source](https://img.shields.io/badge/Cost-%240.00%20(Private%20%26%20Local)-brightgreen.svg)]()
 
-> **Enterprise AI Architecture Showcase for Solutions Architects in Australian Banking**  
+> **Agentic Retrieval-Augmented Generation (RAG) Policy assistant**  
 > An Agentic Retrieval-Augmented Generation (RAG) assistant designed for residential mortgage credit underwriting, exception assessment, and regulatory compliance.
 
 ---
@@ -174,10 +174,3 @@ Try asking the assistant these real-world Australian mortgage underwriting scena
    *Expected Response:* Cites `[Clause 2.4]`: Profit declined by >20% (declined by 26.6%), so the lower Year 2 figure ($110,000) must be used.
 
 ---
-
-## 7. Solutions Architect Interview Talking Points
-
-When presenting this project to interviewers:
-1. **APRA CPG 223 & Responsible Lending:** Emphasize how the agent eliminates underwriting ambiguity by enforcing exact income shading rules and living expense floors (HEM).
-2. **Data Sovereignty & Zero Cloud Costs:** Highlight how running locally with Ollama aligns with APRA CPS 234 information security requirements, ensuring zero customer financial data leaves the perimeter.
-3. **Google ADK & Enterprise Extensibility:** Explain why Google ADK was selected: its clean separation of Tools, State Management, and Multi-Agent Orchestration enables seamless future expansion into multi-agent workflows (e.g., Exception Evaluator Agent + Broker Communication Agent).
