@@ -1,0 +1,27 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector Database (Locally regenerated via ingest.py)
+data/chroma_db/
+
+# Google ADK Local Runtime Data
+.adk/
+
+# Environment Secrets
+.env
+.env.local
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
